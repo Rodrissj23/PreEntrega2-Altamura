@@ -42,6 +42,26 @@ li{
     margin-top: 10px;
 }
 
+.bot-log{
+    display: flex;
+    justify-content: center;
+    border: 3px solid #0005;
+    border-radius: 50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #00c;
+}
+
+.bot-log:hover{
+    box-shadow: 0px 3px 30px 1px gold;
+}
+
+.bot-log .log-link{
+    color: white ;
+}
+
 /*------------------------------------------------------------*/
 
 /* ACA ESTAN LOS ESTILOS DE FOOTER*/
@@ -170,7 +190,6 @@ main section h3{
 .logo-ig{
     width: 60px;
     height: 60px;
-    
 }
 
 .cont-iframe{
@@ -192,8 +211,7 @@ main section h3{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;    
 }
 
 /*------------------------------------------------------------*/
@@ -224,6 +242,7 @@ main section h3{
     margin: 10px;
     margin-top: 40px;
 }
+
 button{
     margin-top: 8px;
     padding: 6px;
@@ -231,6 +250,7 @@ button{
     color: whitesmoke;
     border-radius: 30px;
 }
+
 button:hover{
     color: gold;
 }
@@ -271,6 +291,7 @@ button:hover{
 }
 
 /* Estilo del botón de cerrar al pasar el mouse sobre él */
+
 .close-btn:hover {
     background-color: #888;
 }
@@ -283,21 +304,21 @@ button:hover{
     margin: 10px;
     background-color: #034a96;
 }
+
 .cont-boton{
     padding: 5px;
     margin: 10px 0;
     gap: 20px;
 }
+
 .boton-cat a{
     color: white;
     text-decoration: none;
 }
+
 .boton-cat a:hover{
     color: gold;
 }
-
-
-
 
 /*------------------------------------------------------------*/
 
@@ -403,6 +424,12 @@ button:hover{
 
 
 .p-4 , .p-5 , .p-6 , .p-7 , .p-8 , .p-9{
+    display: none;
+}
+
+/* ESTILOS DE CAMPERAS */
+
+.cam-5, .cam-6, .cam-7, .cam-8, .cam-9{
     display: none;
 }
 
