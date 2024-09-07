@@ -439,7 +439,7 @@ button:hover{
     background: linear-gradient(150deg, #6c3483, #58d683);
     box-sizing: border-box;
     max-width: 600px;
-    height: 538px;
+    height: 97.3vh;
 }
 
 .formulario{
@@ -550,3 +550,4 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
+
