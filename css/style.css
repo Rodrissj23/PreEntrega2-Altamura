@@ -28,8 +28,10 @@ button{
 
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border: none;
+    background: none;
+    outline: none;
 }
 
 .dropdown-menu li:last-child{
@@ -43,23 +45,19 @@ li{
 }
 
 .bot-log{
-    display: flex;
-    justify-content: center;
     border: 3px solid #0005;
     border-radius: 50px;
     text-align: center;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin-left: 5px;
     margin-top: 15px;
+    
     background-color: #00c;
+    color: white;
 }
 
 .bot-log:hover{
     box-shadow: 0px 3px 30px 1px gold;
-}
-
-.bot-log .log-link{
-    color: white ;
 }
 
 /*------------------------------------------------------------*/
