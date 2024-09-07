@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon.icon.png" type="image/x-icon">
 </head>
 <body class="body-login-pag">
-    <div>
-        <form class="form-login">
-            <div class="img-login">
-                <a href="../index.html">
-                    <img src="../img/favicon.icon.png" alt="logo de boca juniors">
-                </a>
+    <div class="formulario">
+        <h1>Inicio de Sesion</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de Usuario</label>
             </div>
-                <h2 class=" h2-login">iniciar sesion</h2>
-            <div class="form_input-login">
-                <input type="email" placeholder="email" required>
+            <div class="username">
+                <input type="password" required>
+                <label>Contraseña</label>
             </div>
-            <div class="form_input-login">
-                <input type="password" placeholder="contraseña" required>
-            </div>
-            <div class="form_input-login">
-                <input type="submit">
+            <div class="recordar">¿Olvidaste tu contraseña</div>
+            <input type="submit" value="Iniciar">
+            <div class="registrarse">
+                No tienes cuenta? <a href="#">registrate!</a>
             </div>
         </form>
+           
     </div>
+      
 </body>
 </html>
