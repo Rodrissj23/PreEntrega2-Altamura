@@ -90,9 +90,9 @@ li{
 
 /*------------------------------------------------------------*/
 
-/* ACA ESTAN LOS ESTILOS DE FOOTER*/
+/* ACA ESTAN LOS ESTILOS DE FOOTER HOME Y CARRITO*/
 
-footer{
+.footer{
     position: fixed;
     bottom: 0px;
     height: 50px;
@@ -101,12 +101,25 @@ footer{
     z-index: 60;
 }
 
-footer p{ 
+.footer p{ 
   text-align: center;
   margin-top:15px;
 }
 
 /*------------------------------------------------------------*/
+
+/* ACA ESTAN LOS ESTILOS DE FOOTER CATEGORIAS PRODUCTOS Y CONTACTO */
+
+.footer-normal{
+    height: 50px;
+    width: 100%;
+    background-color:  #034a96;
+
+}
+.footer-normal p{
+    text-align: center;
+    padding-top: 15px;
+}
 
 /* ACA ESTAN LOS ESTILOS DE MAIN HOME */
 
@@ -241,9 +254,17 @@ main section h3{
 .mapa-bombonera{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 15px;    
+}
+
+@media screen and (max-width:500px) {
+    .cont-iframe{
+        margin: 0 30px;
+        
+        
+    }
+    
 }
 
 /*------------------------------------------------------------*/
