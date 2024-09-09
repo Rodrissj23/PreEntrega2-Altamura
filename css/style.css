@@ -481,8 +481,10 @@ button:hover{
 }
 
 @media screen and (min-width:992px) {
-    .sec-pan{
-        height: 78vh;
+   
+    .f-p{
+        position: absolute;
+        bottom: 0;
     }
 }
 
