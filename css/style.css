@@ -121,6 +121,7 @@ li{
     padding-top: 15px;
 }
 
+
 /* ACA ESTAN LOS ESTILOS DE MAIN HOME */
 
 .contenedor-gallery{
@@ -261,10 +262,7 @@ main section h3{
 @media screen and (max-width:500px) {
     .cont-iframe{
         margin: 0 30px;
-        
-        
     }
-    
 }
 
 /*------------------------------------------------------------*/
@@ -400,8 +398,6 @@ button:hover{
     justify-content: center; 
     gap: 20px;
     margin-bottom: 20px;
-    
-    
 }
 
 .product-card {
@@ -479,6 +475,16 @@ button:hover{
 /*------------------------------------------------------------*/
 
 /* ESTILOS DE PANTALONES */
+
+.sec-pan{
+    height: 83%;
+}
+
+@media screen and (min-width:992px) {
+    .sec-pan{
+        height: 78vh;
+    }
+}
 
 .p-4 , .p-5 , .p-6 , .p-7 , .p-8 , .p-9{
     display: none;
