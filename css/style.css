@@ -265,6 +265,15 @@ main section h3{
     }
 }
 
+/* MEDIA QUERY USADA PARA EL FOOTER*/
+@media screen and (min-width:799px) {
+   
+    .f-c{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
 /*------------------------------------------------------------*/
 
 /* ACA ESTAN LOS ESTILOS DE MAIN CARRITO*/
@@ -480,6 +489,7 @@ button:hover{
     height: 83%;
 }
 
+/* MEDIA QUERY USADA PARA EL FOOTER EN DESKTOP */
 @media screen and (min-width:992px) {
    
     .f-p{
