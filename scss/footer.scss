@@ -1,0 +1,24 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:  #034a96;
+    z-index: 60;
+     p{ 
+        text-align: center;
+        margin-top:15px;
+      }
+}
+.footer-normal{
+    height: 50px;
+    width: 100%;
+    background-color:  #034a96;
+    p{
+        text-align: center;
+    padding-top: 15px;
+    }
+}
+.f-{
+    margin-top: 30px;
+}

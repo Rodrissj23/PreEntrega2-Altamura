@@ -1,0 +1,120 @@
+/* MEDIA QUERY PARA TITULO DE NAVBAR */
+
+@media screen and (max-width:656px) {
+    .h1-title span{
+        display: none;
+    }
+   
+    
+}
+
+@media screen and (max-width:381px) {
+    .h1-title{
+        font-size: 18px;
+        letter-spacing: -0.5;
+    }
+}
+
+@media screen and (min-width:1024px) {
+   .contenedor-gallery{
+    margin-top: 150px;
+   }
+}
+/*MEDIA QUERY PARA TABLET*/
+
+@media screen and (min-width:600px){
+    .contenedor-gallery{
+     grid-template-columns:repeat(2,1fr) ;
+     grid-template-rows: repeat(2,50%);
+     column-gap: 1,5rem;
+    }
+
+     .contenedor-gallery .img-cuatro{
+         grid-column:span 2 ;
+     }
+ }
+
+/*media query destok*/
+
+@media screen and (min-width:1024px) {
+   
+    .contenedor-gallery .img-dos{
+        display: block;
+    }
+
+    .contenedor-gallery{
+        grid-template-columns:repeat(3,1fr) ;
+        grid-template-rows: 30% 30% 20%;
+    }
+
+    .contenedor-gallery .img-uno , .contenedor-gallery .img-tres{
+        grid-row: span 2;
+        
+    }
+
+    .contenedor-gallery .img-dos{
+        grid-column: span 1;
+    }
+
+    .contenedor-gallery .img-cuatro{
+        grid-column: 2;
+    }
+}
+//<--------------------------------->
+@media screen and (max-width:500px) {
+    .cont-iframe{
+        margin: 0 30px;
+    }
+}
+
+/* MEDIA QUERY USADA PARA EL FOOTER*/
+@media screen and (min-width:799px) {
+   
+    .f-c{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media screen and (max-width:500px){
+    .cont-boton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton-cat{
+        font-size: 13px;
+    }
+    
+}
+/* MEDIA QUERY PARA PRODUCTOS */
+
+@media screen and (min-width:950px) {
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        gap: 30px
+        
+    }
+}
+
+@media screen and (min-width:0px) {
+    .contenedor{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 30px;        
+    }
+}
+/* MEDIA QUERY USADA PARA EL FOOTER EN DESKTOP */
+@media screen and (min-width:992px) {
+   
+    .f-p{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.p-4 , .p-5 , .p-6 , .p-7 , .p-8 , .p-9{
+    display: none;
+}

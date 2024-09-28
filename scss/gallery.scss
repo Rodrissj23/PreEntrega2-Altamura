@@ -1,0 +1,19 @@
+.contenedor-gallery{
+    height: 70vh;
+    margin: 30px 30px;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: repeat(3,23%);
+    row-gap: 1.5rem;
+    align-content: center;
+    margin-top: 30px;
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 0 10px;
+    }
+    .img-dos{
+        display: none;
+    }
+}
