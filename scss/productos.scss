@@ -7,7 +7,7 @@ main section{
         .contenedor {
             display: flex;
             margin: auto;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center; 
             gap: 20px;
             margin-bottom: 20px;
@@ -24,7 +24,7 @@ main section{
                     height: 270px;
                     object-fit: cover;
                     position: relative; 
-                    margin:5px 10px;
+                    margin:5px auto;
                 }
             }
             .product-info {
